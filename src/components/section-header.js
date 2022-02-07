@@ -6,6 +6,9 @@ export default function SectionHeader({ title, slogan, isWhite }) {
     <Box sx={{ variant: "sectionHeader" }}>
       <Heading
         as="h2"
+        style={{
+          maxWidth: "1000px",
+        }}
         sx={{
           variant: "sectionHeader.title",
           color: isWhite ? "white" : "heading_secondary",

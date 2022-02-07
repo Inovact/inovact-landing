@@ -11,22 +11,22 @@ const data = [
   {
     id: 1,
     title: "Signup into the platform",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "Select your role, choose your area of interest, and write a few words about yourself.",
   },
   {
     id: 2,
-    title: "Upload a project",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    title: "Share your project, idea or thought",
+    text: "Let people know what you’re doing. Showcase your innovative projects and disruptive ideas.",
   },
   {
     id: 3,
-    title: "Add team requirements",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    title: "Add team requirement",
+    text: " We know how hard it is to meet an equally passionate teammate. Meet your possible teammate or Co-Founder with just a click of a button.",
   },
   {
     id: 4,
     title: "Find your mentor",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "Connect with Industry experts & experienced entrepreneurs for guidance.",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
+          slogan="Journey of any typical user"
           title="Let’s see how it works"
           isWhite={true}
         />

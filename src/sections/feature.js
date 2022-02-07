@@ -15,21 +15,21 @@ const data = [
     id: 1,
     imgSrc: Smart,
     altText: "Smart",
-    title: "Upload Projects and Ideas",
+    title: "Upload projects, Ideas & thoughts",
     text: "Get your blood tests delivered at let home collect sample from the victory of the managements.",
   },
   {
     id: 2,
     imgSrc: Winner,
     altText: "Performance",
-    title: "Find Your Team",
+    title: "Meet and manage your Team",
     text: "Get your blood tests delivered at let home collect sample from the victory of the managements.",
   },
   {
     id: 3,
     imgSrc: Cloud,
     altText: "Content",
-    title: "Meet Your Mentor",
+    title: "Meet your mentor",
     text: "Get your blood tests delivered at let home collect sample from the victory of the managements.",
   },
   {
@@ -57,7 +57,7 @@ export default function Feature() {
               src={item.imgSrc}
               alt={item.title}
               title={item.title}
-              text={item.text}
+              // text={item.text}
             />
           ))}
         </Grid>

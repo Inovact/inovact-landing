@@ -1,10 +1,11 @@
 /** @jsx jsx */
 import { jsx, Container, Flex, Button } from "theme-ui";
 import { keyframes } from "@emotion/core";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
 import Logo from "components/logo";
-import LogoDark from "assets/logo-dark.svg";
-import LogoWhite from "assets/logo.svg";
+import LogoDark from "assets/inovactlogo.png";
+import LogoWhite from "assets/inovactlogo.png";
 import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
@@ -14,11 +15,10 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={className === "sticky" ? LogoDark : LogoWhite} />
-
+          <img src={LogoDark} style={{ width: "25px" }} />
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
-              <Link
+              <ScrollLink
                 activeClass="active"
                 to={path}
                 spy={true}
@@ -28,18 +28,15 @@ export default function Header({ className }) {
                 key={i}
               >
                 {label}
-              </Link>
+              </ScrollLink>
             ))}
+            <Link className="link" href="/">
+              Home
+            </Link>
+            <Link className="link" href="/community">
+              Community
+            </Link>
           </Flex>
-
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Get Started"
-          >
-            Get Started
-          </Button>
-
           <MobileDrawer />
         </Container>
       </header>
@@ -82,8 +79,8 @@ const styles = {
       color: "#000000",
       boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)",
       py: 3,
-      "nev > a": {
-        color: "text",
+      "nav > a": {
+        color: "#222",
       },
       ".donate__btn": {
         borderColor: "primary",
@@ -111,6 +108,8 @@ const styles = {
       fontSize: "16px",
       fontWeight: "400",
       px: 25,
+      color: "white",
+      textDecoration: "none",
       cursor: "pointer",
       lineHeight: "1.2",
       "&.active": {

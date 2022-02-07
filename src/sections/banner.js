@@ -40,16 +40,17 @@ export default function Banner() {
     e.preventDefault();
     setVideoOpen(true);
   };
+  
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Welcome to <span sx={styles.banner.span}>Inovact</span>
+            Welcome to <span sx={styles.banner.span}>Inovact Social</span>
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Inovact Social is the one-stop networking platform connecting
-            students , mentors and investors.
+            Inovact social is a one-stop competitive social networking platform
+            for students, entrepreneurs, and mentors.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
@@ -62,13 +63,13 @@ export default function Banner() {
                 videoId="ZNA9rmDsYVE"
                 onClose={() => setVideoOpen(false)}
               />
-              <Button
+              {/* <Button
                 variant="textButton"
                 aria-label="Watch Video"
                 onClick={handleClick}
               >
                 <FaPlayCircle /> Watch Video
-              </Button>
+              </Button> */}
             </>
           </Flex>
         </Box>
@@ -81,6 +82,7 @@ export default function Banner() {
           />
         </Box>
       </Container>
+      {/* add a introduction video */}
     </section>
   );
 }

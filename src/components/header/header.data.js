@@ -1,10 +1,10 @@
 export default [
-  {
-    path: "home",
-    label: "Home",
-  },
-  {
-    path: "feature",
-    label: "Features",
-  },
+  // {
+  //   path: "/",
+  //   label: "Home",
+  // },
+  // {
+  //   path: "about",
+  //   label: "About",
+  // },
 ];

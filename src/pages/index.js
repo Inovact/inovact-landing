@@ -14,6 +14,9 @@ import TestimonialCard from "sections/testimonial";
 import SecurePayment from "sections/secure-payment";
 import Package from "sections/package";
 import Faq from "sections/faq";
+import Video from "sections/video";
+import Footer from "components/footer/footer";
+import Form from "sections/form";
 
 export default function IndexPage() {
   return (
@@ -22,15 +25,17 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Startup Landing 004" />
           <Banner />
-          <KeyFeature />
+          <Video />
+          {/* <KeyFeature /> */}
           {/* <CoreFeature /> */}
           <Feature />
           {/* <PartnerSection /> */}
           <WorkFlow />
-          {/* <TestimonialCard /> */}
+          <TestimonialCard />
           {/* <SecurePayment /> */}
           {/* <Package /> */}
-          <Faq />
+          {/* <Faq /> */}
+          <Footer />
         </Layout>
       </StickyProvider>
     </ThemeProvider>
