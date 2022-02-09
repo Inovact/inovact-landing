@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <div className="form">
       <div class="form-wrapper">
-        <SectionHeader title="To establish ISCP in your University/college, please fill this form and we will get back to you ASAP" />
+        <SectionHeader title="To establish IYLP in your University/college, please fill this form and we will get back to you ASAP" />
         <form action="" method="POST">
           <div class="form-group">
             <label for="name">Full Name</label>
