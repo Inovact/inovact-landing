@@ -32,13 +32,13 @@ const data = [
     title: "Meet your mentor",
     text: "Get your blood tests delivered at let home collect sample from the victory of the managements.",
   },
-  {
-    id: 4,
-    imgSrc: Setting,
-    altText: "Customization",
-    title: "Fund Your Project ",
-    text: "Get your blood tests delivered at let home collect sample from the victory of the managements.",
-  },
+  // {
+  //   id: 4,
+  //   imgSrc: Setting,
+  //   altText: "Customization",
+  //   title: "Fund Your Project ",
+  //   text: "Get your blood tests delivered at let home collect sample from the victory of the managements.",
+  // },
 ];
 
 export default function Feature() {

@@ -40,7 +40,7 @@ export default function Banner() {
     e.preventDefault();
     setVideoOpen(true);
   };
-  
+
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
@@ -115,7 +115,7 @@ const styles = {
       width: "350px",
       height: "550px",
       borderRadius: "12px",
-
+      marginLeft: "5rem",
       transformOrigin: "center",
       boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.7)",
       // ml: [0, null, null, "-110px", "-115px", "-150px", "-210px", "-270px"],

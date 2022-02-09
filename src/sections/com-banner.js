@@ -46,7 +46,7 @@ export default function ComBanner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Inovact Student Community Program
+            Inovact Young Learner's Community
           </Heading>
           <Text as="p" variant="heroSecondary">
             A strong peer to peer backed community of students and student

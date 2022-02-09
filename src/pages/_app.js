@@ -6,6 +6,7 @@ import "typeface-dm-sans";
 
 import "../components/footer/footer.css";
 import "../assets/form.css";
+import "../assets/gallery.css";
 // Load other package css file
 import "react-multi-carousel/lib/styles.css";
 import "react-modal-video/css/modal-video.min.css";

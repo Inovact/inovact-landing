@@ -15,7 +15,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <img src={LogoDark} style={{ width: "25px" }} />
+          <img src={LogoDark} style={{ width: "50px" }} />
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
               <ScrollLink

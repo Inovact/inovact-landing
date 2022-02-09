@@ -31,7 +31,7 @@ export default function IndexPage() {
           <Feature />
           {/* <PartnerSection /> */}
           <WorkFlow />
-          <TestimonialCard />
+          {/* <TestimonialCard /> */}
           {/* <SecurePayment /> */}
           {/* <Package /> */}
           {/* <Faq /> */}

@@ -20,6 +20,7 @@ import ComKeyFeature from "sections/com-key-feature";
 import ComFeature from "sections/com-feature";
 import Footer from "components/footer/footer";
 import Form from "sections/form";
+import ComGallery from "sections/com-gallery";
 
 export default function CommunityPage() {
   return (
@@ -32,8 +33,9 @@ export default function CommunityPage() {
           {/* <CoreFeature /> */}
           <ComFeature />
           <PartnerSection />
-          {/* <WorkFlow />
+          <ComGallery />
           <TestimonialCard />
+          {/* <WorkFlow />
           <SecurePayment />
           <Package />
           <Faq /> */}
