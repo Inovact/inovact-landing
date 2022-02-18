@@ -6,7 +6,7 @@ const Video = () => {
   return (
     <div style={{ margin: "0 auto" }}>
       <ReactPlayer
-        url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        url="https://youtu.be/Cs2xPl0-PlY"
         width="100%"
         height="90vh"
         controls

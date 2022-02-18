@@ -7,8 +7,8 @@ import { FaYoutube, FaInstagram, FaEnvelope } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="footer-section">
-      <footer class="footer-distributed">
-        <div class="footer-right">
+      <footer className="footer-distributed">
+        <div className="footer-right">
           <div
             style={{
               display: "flex",
@@ -32,9 +32,9 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div class="footer-left">
-          <p class="footer-links">
-            <a class="link-1" href="#">
+        <div className="footer-left">
+          <p className="footer-links">
+            <a className="link-1" href="#">
               Home
             </a>
 
