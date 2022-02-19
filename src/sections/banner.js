@@ -53,9 +53,6 @@ export default function Banner() {
             for students, entrepreneurs, and mentors.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
-            </Button>
             <>
               <ModalVideo
                 channel="youtube"
